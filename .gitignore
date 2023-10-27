@@ -51,6 +51,13 @@ Module.symvers
 Mkfile.old
 dkms.conf
 
+# Vim
+*.swp
+*.swo
+
 # Project specifics
 hello
 Google_Tests_run
+
+# Ignore tests result
+03/bin
